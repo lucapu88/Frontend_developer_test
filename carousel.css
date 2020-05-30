@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .arrowLeft,
 .arrowRight {
   display: flex;
@@ -14,14 +20,21 @@
 .caroselloContainer #carosello {
   display: flex;
   overflow-x: auto;
+  width: 88vw;
+  background-color: #A8A8A8;
+  padding: 20px;
 }
 .caroselloContainer #carosello .caroselloCard {
-  flex: 0 0 50%;
+  margin: 0 20px;
   max-width: 50%;
+  background-color: white;
 }
 .caroselloContainer #carosello .caroselloCard img {
-  width: 100%;
-  border-radius: 20px;
+  width: 300px;
+}
+.caroselloContainer #carosello .caroselloCard p {
+  width: 300px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=carousel.css.map */

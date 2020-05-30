@@ -1,12 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-$font-primary-color: #339AF0;
-$font-secondary-color: #A8A8A8;
-
+@import 'app';
 header {
     padding: 20px;
     margin-left: 50px;
