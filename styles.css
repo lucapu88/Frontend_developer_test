@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  margin-left: 50px;
+}
+header h1 {
+  color: #339AF0;
+}
+header h1 .fa-lightbulb {
+  background-color: #339AF0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+header p {
+  color: #A8A8A8;
+}
+
+.container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

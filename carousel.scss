@@ -1,0 +1,30 @@
+    .arrowLeft,
+    .arrowRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .caroselloContainer {
+        display: flex;
+        position: relative;
+
+        #carosello {
+            display: flex;
+            overflow-x: auto;
+
+            .caroselloCard {
+                flex: 0 0 50%;
+                max-width: 50%;
+
+                img {
+                    width: 100%;
+                    border-radius: 20px;
+                }
+
+            }
+        }
+
+    }

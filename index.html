@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>carousel</title>
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-lightbulb"></i> Fresh and just uploaded content <i class="fas fa-chevron-right"></i></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni repellat quam fugiat veritatis labore necessitatibus iusto mollitia illum </p>
+    </header>
+    <div class="container">
+        <div class="arrowLeft" onclick="myMoveLeft()">
+            <i class="fas fa-chevron-left fa-5x"></i>
+        </div>
+        <div class="caroselloContainer">
+            <div id="carosello">
+                <div class="caroselloCard">
+                    <img src="https://images.pexels.com/photos/681847/pexels-photo-681847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                </div>
+                <div class="caroselloCard">
+                    <img src="https://images.pexels.com/photos/1267360/pexels-photo-1267360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                </div>
+                <div class="caroselloCard">
+                    <img src="https://images.pexels.com/photos/1267684/pexels-photo-1267684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                </div>
+                <div class="caroselloCard">
+                    <img src="https://images.pexels.com/photos/1267684/pexels-photo-1267684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="">
+                </div>
+            </div>
+        </div>
+        <div class="arrowRight" onclick="myMoveRight()">
+            <i class="fas fa-chevron-right fa-5x"></i>
+        </div>
+    </div>
+
+    <script src="carousel.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-primary-color: #339AF0;
+$font-secondary-color: #A8A8A8;
+
+header {
+    padding: 20px;
+    margin-left: 50px;
+
+    h1 {
+        color: $font-primary-color;
+
+        .fa-lightbulb {
+            background-color: $font-primary-color;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+    }
+    p {
+        color: $font-secondary-color;
+    }
+
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
