@@ -1,17 +1,43 @@
-    
-@import 'app';
+    @import 'app';
+
     .arrowLeft,
     .arrowRight {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: grey;
         cursor: pointer;
         padding: 10px;
+
+        &:hover {
+            color: lightgrey;
+        }
     }
 
     .caroselloContainer {
         display: flex;
         position: relative;
+        flex-direction: column;
+
+        .header {
+            padding: 20px 0;
+
+            .fa-lightbulb {
+                background-color: $font-primary-color;
+                color: white;
+                border-radius: 5px;
+                padding: 5px 15px;
+            }
+
+            h1 {
+                color: $font-primary-color;
+            }
+
+            p {
+                color: $font-secondary-color;
+            }
+
+        }
 
         #carosello {
             display: flex;
@@ -19,20 +45,31 @@
             width: 88vw;
             background-color: $font-secondary-color;
             padding: 20px;
-            .caroselloCard {
-                margin: 0 20px;
-                max-width: 50%;
-                background-color: white;
-                img {
-                    width: $card-width;
-                }
-
-                p {
-                    width: $card-width;
-                    padding: 10px;
-                }
-
-            }
         }
 
+    }
+
+    // .caroselloContainer::-webkit-scrollbar {
+    //     display: none;
+    //     /* Chrome Safari */
+    // }
+
+    //CUSTOM SCROLLBAR
+    #carosello::-webkit-scrollbar {
+        width: 20px;
+    }
+
+    #carosello::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px $font-primary-color;
+        border-radius: 10px;
+    }
+
+    #carosello::-webkit-scrollbar-thumb {
+        background: $font-primary-color;
+        border-radius: 10px;
+    }
+
+    #carosello::-webkit-scrollbar-thumb:hover {
+        background: darken($font-primary-color, 15%);
+        cursor: grab;
     }

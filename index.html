@@ -11,49 +11,57 @@
 </head>
 
 <body>
-    <header>
-        <h1><i class="fas fa-lightbulb"></i> Fresh and just uploaded content <i class="fas fa-chevron-right"></i></h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni repellat quam fugiat veritatis labore necessitatibus iusto mollitia illum </p>
-    </header>
+   
     <div class="container">
         <div class="arrowLeft" onclick="myMoveLeft()">
             <i class="fas fa-chevron-left fa-5x"></i>
         </div>
         <div class="caroselloContainer">
+            <div class="header">
+                <h1 class="title"><i class="fas fa-lightbulb"></i> Fresh and just uploaded content <i class="fas fa-chevron-right"></i></h1>
+                <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni repellat quam fugiat veritatis labore necessitatibus iusto mollitia illum </p>
+            </div>
             <div id="carosello">
-                <div class="caroselloCard">
-                    <img src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse harum blanditiis perferendis iure veniam neque facilis illo accusamus unde quaerat assumenda maxime, nulla consequuntur eaque amet voluptates! Repellendus, alias.</p>
+                <div class="caroselloCard1">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
                 </div>
-                <div class="caroselloCard">
-                    <img src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse harum blanditiis perferendis iure veniam neque facilis illo accusamus unde quaerat assumenda maxime, nulla consequuntur eaque amet voluptates! Repellendus, alias.</p>
+                <div class="caroselloCard2">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
                 </div>
-                <div class="caroselloCard">
-                    <img src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse harum blanditiis perferendis iure veniam neque facilis illo accusamus unde quaerat assumenda maxime, nulla consequuntur eaque amet voluptates! Repellendus, alias.</p>
+                <div class="caroselloCard3">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
                 </div>
-                <div class="caroselloCard">
-                    <img src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse harum blanditiis perferendis iure veniam neque facilis illo accusamus unde quaerat assumenda maxime, nulla consequuntur eaque amet voluptates! Repellendus, alias.</p>
+                <div class="caroselloCard4">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
                 </div>
-                <div class="caroselloCard">
-                    <img src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                    alt="">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse harum blanditiis perferendis iure veniam neque facilis illo accusamus unde quaerat assumenda maxime, nulla consequuntur eaque amet voluptates! Repellendus, alias.</p>
+                <div class="caroselloCard5">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
                 </div>
+                
             </div>
         </div>
         <div class="arrowRight" onclick="myMoveRight()">
             <i class="fas fa-chevron-right fa-5x"></i>
         </div>
     </div>
-
     <script src="carousel.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        let carousel1 = new Carousel(options1);
+        let carousel2 = new Carousel(options2);
+        let carousel3 = new Carousel(options3);
+        let carousel4 = new Carousel(options4);
+        let carousel5 = new Carousel(options5);
+    </script>
 </body>
 
 </html>

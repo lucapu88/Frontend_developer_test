@@ -1,23 +1,5 @@
 @import 'app';
-header {
-    padding: 20px;
-    margin-left: 50px;
 
-    h1 {
-        color: $font-primary-color;
-
-        .fa-lightbulb {
-            background-color: $font-primary-color;
-            color: white;
-            border-radius: 5px;
-            padding: 5px 15px;
-        }
-    }
-    p {
-        color: $font-secondary-color;
-    }
-
-}
 
 .container {
     height: 500px;

@@ -9,13 +9,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: grey;
   cursor: pointer;
   padding: 10px;
+}
+.arrowLeft:hover,
+.arrowRight:hover {
+  color: lightgrey;
 }
 
 .caroselloContainer {
   display: flex;
   position: relative;
+  flex-direction: column;
+}
+.caroselloContainer .header {
+  padding: 20px 0;
+}
+.caroselloContainer .header .fa-lightbulb {
+  background-color: #339AF0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.caroselloContainer .header h1 {
+  color: #339AF0;
+}
+.caroselloContainer .header p {
+  color: #A8A8A8;
 }
 .caroselloContainer #carosello {
   display: flex;
@@ -24,17 +45,24 @@
   background-color: #A8A8A8;
   padding: 20px;
 }
-.caroselloContainer #carosello .caroselloCard {
-  margin: 0 20px;
-  max-width: 50%;
-  background-color: white;
+
+#carosello::-webkit-scrollbar {
+  width: 20px;
 }
-.caroselloContainer #carosello .caroselloCard img {
-  width: 300px;
+
+#carosello::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #339AF0;
+  border-radius: 10px;
 }
-.caroselloContainer #carosello .caroselloCard p {
-  width: 300px;
-  padding: 10px;
+
+#carosello::-webkit-scrollbar-thumb {
+  background: #339AF0;
+  border-radius: 10px;
+}
+
+#carosello::-webkit-scrollbar-thumb:hover {
+  background: #0f74c8;
+  cursor: grab;
 }
 
 /*# sourceMappingURL=carousel.css.map */
